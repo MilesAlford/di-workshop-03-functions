@@ -83,6 +83,7 @@ function draw() {
 
 **Predict what this will draw when you run it.** Try using a pen and paper to
 help you figure it out.
+It will create a rectangle and a triangle on the specified axis
 
 Let’s add our own function. Processing has built-in functions for drawing
 rectangles and other shapes, but let’s add a new one that draws squares. Add
@@ -97,7 +98,7 @@ function square(x, y, size) {
 Replace `rect(5, 30, 70, 70)` with `square(5, 30, 70)` and run your code.
 
 **What’s going on here? What might `x, y, size` mean?**
-
+A function called square has been created which when executed produces a rectangle with the variables x, y and size.
 **Add a comment above your function saying what the inputs and outputs of your
 function are (name, description, data type) and what your functions does.** You
 should add a comment like this to every function you write.
@@ -105,7 +106,7 @@ should add a comment like this to every function you write.
 Let’s create some more functions - one for drawing the roof of the house, and
 another for drawing the entire house.
 
-C**reate functions using the code below as a starting point.** Your house
+**Create functions using the code below as a starting point.** Your house
 function should only use the square and roof functions that we defined.
 
 ```js
@@ -226,9 +227,9 @@ function setup() {
 ```
 
 ### Expected Output
-
+9
 ### Actual Output
-
+9
 ### Different? Why?
 
 ## Program 2
@@ -241,9 +242,9 @@ function setup() {
 ```
 
 ### Expected Output
-
+12
 ### Actual Output
-
+12
 ### Different? Why?
 
 ## Program 3
@@ -259,9 +260,9 @@ function setup() {
 ```
 
 ### Expected Output
-
+3
 ### Actual Output
-
+3
 ### Different? Why?
 
 ## Program 4
@@ -277,9 +278,9 @@ function setup() {
 ```
 
 ### Expected Output
-
+10
 ### Actual Output
-
+10
 ### Different? Why?
 
 ## Program 5
@@ -295,13 +296,13 @@ function setup() {
 ```
 
 ### Expected Output
-
+Boop is good
 ### Actual Output
-
+Boop is good
 ### Different? Why?
 
 **What does return mean in JavaScript?**
-
+The return statement stops the execution of a function and returns a value from the function
 # Part 5
 
 Create a new sketch using this code:
@@ -332,7 +333,7 @@ function draw() {
 **Before you run it, try to predict what will happen on screen.** If you find
 this difficult, sketch it out on a piece of paper and trace through the code
 step by step, as if you were the computer.
-
+I predict a ball will bounce on the edges of the canvas
 **Run the code and see what happens. Was your prediction accurate? If not,
 why?**
 
